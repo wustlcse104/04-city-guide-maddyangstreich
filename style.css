@@ -10,7 +10,7 @@ body {
 }
 
 html {
-  font-family: Gotham;
+  font-family: Futura;
   margin-top: 10px, 30px, 30px, 30px;
   padding-top: 10px, 30px, 30px, 30px;
 
@@ -19,11 +19,13 @@ html {
 h1{
   font-family: Harbour;
   font-size: 80px;
+  color: 	hsl(3, 100%, 68%);
+
 }
 
 h2, h3 {
   color: hsl(217, 65%, 37%);
-  font-family: "Gotham Black";
+  font-family: Futura;
   font-size: 40px;
 }
 
@@ -45,7 +47,7 @@ h2, h3 {
 }
 
 #icecream {
-  text-decoration: underline;
+text-decoration: underline;
 }
 
 p {
@@ -57,11 +59,11 @@ a {
   display: block;
 }
 a:link {
-  color: red;
+  color: #ff9e99;
 }
 
 a:visited {
-  color: darkred;
+  color: hsl(3, 100%, 68%);
 }
 
 a:hover {
@@ -86,7 +88,8 @@ ul{
   list-style-type: square;
   list-style-position: inside;
   font-weight: bold;
-  background-color: white;
+  background-color: rgb(136,170,226);
+  color: white;
   width: 500px;
   margin:0 auto;
 }
@@ -100,12 +103,12 @@ table{
 }
 
 input:focus {
-    background-color: lightyellow;
+    background-color: 	hsl(3, 100%, 68%);
 }
 
 input {
-  color: blue;
-  background-color: lightblue;
+  color: white;
+  background-color: rgb(136,170,226);
   font-size: 15px;
   font-weight: bold;
 }
