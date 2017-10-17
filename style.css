@@ -1,0 +1,111 @@
+
+body {
+  background-color: #e2edff;
+  text-align: center
+
+}
+
+.information {
+  color: rgb(136,170,226);
+}
+
+html {
+  font-family: Gotham;
+  margin-top: 10px, 30px, 30px, 30px;
+  padding-top: 10px, 30px, 30px, 30px;
+
+}
+
+h1{
+  font-family: Harbour;
+  font-size: 80px;
+}
+
+h2, h3 {
+  color: hsl(217, 65%, 37%);
+  font-family: "Gotham Black";
+  font-size: 40px;
+}
+
+#table1{
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+
+
+}
+#table2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%
+}
+.movies {
+
+
+}
+
+#icecream {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 1.5em;
+  text-indent: 100px;
+}
+
+a {
+  display: block;
+}
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: darkred;
+}
+
+a:hover {
+  color: white;
+}
+
+a:focus {
+  color: yellow;
+}
+
+#map{
+border-width: 5px;
+border-style: solid;
+border-color: darkblue;
+padding: 10px 10px 10px 10px;
+margin-bottom: 60px;
+margin-top: 60px;
+box-shadow: 5px 5px 5px 5px darkblue;
+}
+
+ul{
+  list-style-type: square;
+  list-style-position: inside;
+  font-weight: bold;
+  background-color: white;
+  width: 500px;
+  margin:0 auto;
+}
+
+table{
+  width: 150%;
+  height: 300%;
+  border-collapse: collapse;
+  table-layout: auto;
+  text-align: left;
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+input {
+  color: blue;
+  background-color: lightblue;
+  font-size: 15px;
+  font-weight: bold;
+}
