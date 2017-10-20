@@ -10,14 +10,13 @@ body {
 }
 
 html {
-  font-family: Futura;
   margin-top: 10px, 30px, 30px, 30px;
   padding-top: 10px, 30px, 30px, 30px;
-
 }
 
 h1{
-  font-family: Harbour;
+  font-family: Baskerville, Garamond;
+  letter-spacing: 8px;
   font-size: 80px;
   color: 	hsl(3, 100%, 68%);
 
@@ -25,8 +24,9 @@ h1{
 
 h2, h3 {
   color: hsl(217, 65%, 37%);
-  font-family: Futura;
+  font-family: Baskerville, Garamond;
   font-size: 40px;
+  letter-spacing: 3px;
 }
 
 #table1{
@@ -46,19 +46,31 @@ h2, h3 {
 
 }
 
+img{
+  margin: auto;
+  display: block;
+}
 #icecream {
 text-decoration: underline;
 }
 
 p {
+  margin-right: 100px;
+  margin-left: 100px;
   line-height: 1.5em;
   text-indent: 100px;
+  font-family: Arial;
+  text-align: justify;
 }
 
-a {
-  display: block;
+#link2, #link1, #link3{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-weight: bold;
 }
+
 a:link {
+
   color: #ff9e99;
 }
 
@@ -81,7 +93,8 @@ border-color: darkblue;
 padding: 10px 10px 10px 10px;
 margin-bottom: 60px;
 margin-top: 60px;
-box-shadow: 5px 5px 5px 5px darkblue;
+
+box-shadow: 2px 2px 2px 2px darkblue;
 }
 
 ul{
@@ -92,14 +105,22 @@ ul{
   color: white;
   width: 500px;
   margin:0 auto;
+  border:10px solid white;
 }
 
 table{
-  width: 150%;
-  height: 300%;
+  margin: auto;
   border-collapse: collapse;
   table-layout: auto;
-  text-align: left;
+
+}
+thead{
+  text-align: center;
+  font-weight: bold;
+}
+
+td{
+  text-align: center;
 }
 
 input:focus {
