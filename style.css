@@ -1,66 +1,113 @@
+header {
+  position: fixed;
+  background-color: hsl(3, 100%, 68%);
+  width: 100%;
+  display: block;
+  padding-left: 0px;
+}
+
+header nav {
+  float: right;
+  padding: 30px;
+  font-family: Avenir, Arial;
+}
+
+section {
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+section #fun {
+  width: 50%;
+}
+section > hr {
+  width: 40%
+
+}
+article{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0px 12px;
+margin-bottom: 0px;
+}
+
+aside{
+  float: none;
+  box-sizing: border-box;
+  padding: 250px 200px;
+}
+
+aside .image-box{
+  float: none;
+  align-content: center;
+  display: inline-block;
+}
+article .image-box{
+  height: 450px;
+  overflow: hidden;
+}
+
+article hgroup {
+  text-align: center;
+
+}
+article img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 0px auto;
+}
+
 
 body {
-  background-color: #e2edff;
-  text-align: center
+  background-color: white;
+  text-align: center;
 
 }
 
-.information {
-  color: rgb(136,170,226);
-}
 
-html {
-  margin-top: 10px, 30px, 30px, 30px;
-  padding-top: 10px, 30px, 30px, 30px;
-}
 
 h1{
   font-family: Baskerville, Garamond;
   letter-spacing: 8px;
   font-size: 80px;
-  color: 	hsl(3, 100%, 68%);
+  color: 	white;
+  margin-bottom: 10px
 
 }
 
 h2, h3 {
-  color: hsl(217, 65%, 37%);
+  color: hsl(3, 100%, 68%);
   font-family: Baskerville, Garamond;
   font-size: 40px;
   letter-spacing: 3px;
+  margin-bottom: 0px;
 }
 
-#table1{
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
-
-
+h4 {
+  color: hsl(217, 65%, 37%);
+  font-family: Baskerville, Garamond;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
-#table2 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%
-}
-.movies {
 
-
-}
 
 img{
-  margin: auto;
   display: block;
 }
-#icecream {
-text-decoration: underline;
-}
+
+
 
 p {
   margin-right: 100px;
   margin-left: 100px;
   line-height: 1.5em;
-  text-indent: 100px;
-  font-family: Arial;
+  font-family: Avenir, Arial;
   text-align: justify;
+  color: rgb(136,170,226);
+  margin-top: 20px;
 }
 
 #link2, #link1, #link3{
@@ -71,31 +118,21 @@ p {
 
 a:link {
 
-  color: #ff9e99;
+  color: green;
 }
 
 a:visited {
-  color: hsl(3, 100%, 68%);
+  color: black;
 }
 
 a:hover {
-  color: white;
+  color: blue;
 }
 
 a:focus {
   color: yellow;
 }
 
-#map{
-border-width: 5px;
-border-style: solid;
-border-color: darkblue;
-padding: 10px 10px 10px 10px;
-margin-bottom: 60px;
-margin-top: 60px;
-
-box-shadow: 2px 2px 2px 2px darkblue;
-}
 
 ul{
   list-style-type: square;
@@ -103,12 +140,13 @@ ul{
   font-weight: bold;
   background-color: rgb(136,170,226);
   color: white;
-  width: 500px;
+  width: 55%;
   margin:0 auto;
   border:7px solid white;
 }
 
 table{
+  position: relative;
   margin: auto;
   border-collapse: collapse;
   table-layout: auto;
@@ -132,4 +170,12 @@ input {
   background-color: rgb(136,170,226);
   font-size: 15px;
   font-weight: bold;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  background-color: hsl(3, 100%, 68%);
+  width: 100%;
 }
